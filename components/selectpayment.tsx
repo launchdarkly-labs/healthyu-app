@@ -19,10 +19,10 @@ export function SelectPayment() {
       <SelectContent>
         <SelectGroup>
           <SelectLabel>Payment Methods</SelectLabel>
-          <SelectItem value="apple">Stored Credit Card</SelectItem>
-          <SelectItem value="blueberry">Stored Bank Account</SelectItem>
-          <SelectItem value="banana">Paypal</SelectItem>
-          <SelectItem value="grapes">TogglePay</SelectItem>
+          <SelectItem value="credit">Stored Credit Card</SelectItem>
+          <SelectItem value="bank">Stored Bank Account</SelectItem>
+          <SelectItem value="paypal">Paypal</SelectItem>
+          <SelectItem value="toggle">TogglePay</SelectItem>
         </SelectGroup>
       </SelectContent>
     </Select>

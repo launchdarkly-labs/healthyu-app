@@ -10,22 +10,20 @@ export default function Home() {
     <main
       className={`flex min-h-screen flex-col items-center ${inter.className}`}
     >
-      <nav className="flex h-16 bg-black w-full shadow-2xl items-center mb-8 justify-between px-8">
+      <nav className="flex h-16 w-full shadow-2xl items-center mb-8 justify-between px-8">
         <div className="flex items-center">
-          <h1 className=" mr-8 text-2xl font-bold text-blue-500">HealthyYou</h1>
-          <a className="text-white mr-4 text-xl hover:border-b-2 hover:border-blue-500" href="#">Home</a>
-          <a className="text-white mr-4 text-xl hover:border-b-2 hover:border-blue-500" href="#">Store</a>
+          <h1 className=" mr-8 text-2xl font-bold text-blue-500">HealthyU</h1>
         </div>
       </nav>
       <div className="relative flex flex-col w-full mx-auto items-center justify-center">
         
         <p className="relative z-20 text-8xl font-bold text-center">
-          Welcome to <span className="text-blue-500">HealthyYou</span>
+          Welcome to <span className="text-blue-500">HealthyU</span>
         </p>
-        <p className="text-3xl pt-4 z-20">
-          Helping <span className="text-blue-500">families</span> build{" "}
-          <span className="text-blue-500">plans</span> to{" "}
-          <span className="text-blue-500">live</span> healthy lives.
+        <p className="text-3xl pt-4 z-20  text-muted-foreground">
+          Helping <span className="text-blue-500 font-bold">families</span> build{" "}
+          <span className="text-blue-500 font-bold">plans</span> to{" "}
+          <span className="text-blue-500 font-bold">live</span> healthy lives.
         </p>
         <div className="py-4">
         <CheckOut />
@@ -81,7 +79,6 @@ export default function Home() {
               State of the art measurement tooling to help you track your progress. 
             </p>
           </CardContent>
-          
         </Card>
       </div>
     </main>
